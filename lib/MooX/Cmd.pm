@@ -3,7 +3,7 @@ package MooX::Cmd;
 use strict;
 use warnings;
 
-our $VERSION = "0.011";
+our $VERSION = "0.012";
 
 use Package::Stash;
 
@@ -34,6 +34,9 @@ sub import
         $caller->can('_initialize_from_cmd') and return;
         my $with = $caller->can('with');
         $with->('MooX::Cmd::Role');
+        # XXX prove whether it can chained ...
+        $import_options{with_config_from_file} and $with->('MooX::ConfigFromFile::Role');
+        $import_options{with_config_from_file} and $with->('MooX::Cmd::Role::ConfigFromFile');
     };
     $apply_modifiers->();
 
@@ -402,7 +405,7 @@ did the initial work and brought it to CPAN
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright 2012-2013 Torsten Raudssus, Copyright 2013-2014 Jens Rehsack.
+Copyright 2012-2013 Torsten Raudssus, Copyright 2013-2015 Jens Rehsack.
 
 This program is free software; you can redistribute it and/or modify it
 under the terms of either: the GNU General Public License as published

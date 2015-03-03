@@ -44,7 +44,7 @@
       "runtime" : {
          "requires" : {
             "Carp" : "0",
-            "List::Util" : "0",
+            "List::MoreUtils" : "0.406",
             "Module::Pluggable" : "4.8",
             "Module::Runtime" : "0",
             "Moo" : "0.009013",
@@ -66,7 +66,7 @@
    "release_status" : "stable",
    "resources" : {
       "bugtracker" : {
-         "mailto" : "moox-cmd@rt.cpan.org",
+         "mailto" : "bug-MooX-Cmd@rt.cpan.org",
          "web" : "http://rt.cpan.org/Public/Dist/Display.html?Name=MooX-Cmd"
       },
       "homepage" : "https://metacpan.org/release/MooX-Cmd",
@@ -75,8 +75,9 @@
       ],
       "repository" : {
          "type" : "git",
+         "url" : "https://github.com:Getty/MooX-Cmd.git",
          "web" : "https://github.com/Getty/MooX-Cmd"
       }
    },
-   "version" : "0.011"
+   "version" : "0.012"
 }
