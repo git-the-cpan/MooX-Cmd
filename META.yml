@@ -35,5 +35,5 @@ resources:
   bugtracker: http://rt.cpan.org/Public/Dist/Display.html?Name=MooX-Cmd
   homepage: https://metacpan.org/release/MooX-Cmd
   license: http://dev.perl.org/licenses/
-  repository: https://github.com:Getty/MooX-Cmd.git
-version: '0.012'
+  repository: https://github.com:Getty/p5-moox-cmd.git
+version: '0.013'

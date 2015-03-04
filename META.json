@@ -75,9 +75,9 @@
       ],
       "repository" : {
          "type" : "git",
-         "url" : "https://github.com:Getty/MooX-Cmd.git",
-         "web" : "https://github.com/Getty/MooX-Cmd"
+         "url" : "https://github.com:Getty/p5-moox-cmd.git",
+         "web" : "https://github.com/Getty/p5-moox-cmd"
       }
    },
-   "version" : "0.012"
+   "version" : "0.013"
 }
