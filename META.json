@@ -5,7 +5,7 @@
       "Torsten Raudssus <torsten@raudss.us>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 7.04, CPAN::Meta::Converter version 2.143240",
+   "generated_by" : "ExtUtils::MakeMaker version 7.04, CPAN::Meta::Converter version 2.150001",
    "license" : [
       "perl_5"
    ],
@@ -58,7 +58,7 @@
       },
       "test" : {
          "requires" : {
-            "IO::TieCombine" : "0",
+            "Capture::Tiny" : "0",
             "Test::More" : "0.98"
          }
       }
@@ -79,5 +79,5 @@
          "web" : "https://github.com/Getty/p5-moox-cmd"
       }
    },
-   "version" : "0.013"
+   "version" : "0.014"
 }

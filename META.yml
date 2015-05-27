@@ -4,12 +4,12 @@ author:
   - 'Jens Rehsack <rehsack@cpan.org>'
   - 'Torsten Raudssus <torsten@raudss.us>'
 build_requires:
-  IO::TieCombine: '0'
+  Capture::Tiny: '0'
   Test::More: '0.98'
 configure_requires:
   ExtUtils::MakeMaker: '0'
 dynamic_config: 1
-generated_by: 'ExtUtils::MakeMaker version 7.04, CPAN::Meta::Converter version 2.143240'
+generated_by: 'ExtUtils::MakeMaker version 7.04, CPAN::Meta::Converter version 2.150001'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -36,4 +36,4 @@ resources:
   homepage: https://metacpan.org/release/MooX-Cmd
   license: http://dev.perl.org/licenses/
   repository: https://github.com:Getty/p5-moox-cmd.git
-version: '0.013'
+version: '0.014'

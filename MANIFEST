@@ -7,7 +7,7 @@ lib/MooX/Cmd/Role.pm
 lib/MooX/Cmd/Role/ConfigFromFile.pm
 lib/MooX/Cmd/Tester.pm
 Makefile.PL
-MANIFEST
+MANIFEST			This list of files
 MANIFEST.SKIP
 README.md
 t/00-load.t
